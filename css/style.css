@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
 }
 
 #hero h1 {
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
-  text-align: center;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-header .section-description {
-  text-align: center;
+  text-align: justify;
   padding-bottom: 40px;
   color: #999;
 }
@@ -237,10 +237,14 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 300px;
   background: url('https://static-id.lamudi.com/static/media/cXVhbGl0eS83MA%3D%3D/2x2x2x700x340/dd74b5640b25c1.jpg') center top no-repeat;
   margin-bottom: 10px;
+  
 }
+
 
 #about .about-container .content {
   background: #fff;
+  padding-right: 10px;
+  padding:10px;
 }
 
 #about .about-container .title {
@@ -278,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
   border-radius: 50%;
   border: 2px solid#ffd700;
 }
@@ -370,6 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #services .title a {
@@ -378,7 +383,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #services .description {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 
